@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		14926FC009FFB15621AB8FAE /* Pods_LoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6E5288DBE80E48A7BEA486 /* Pods_LoginTests.framework */; };
+		3A2057A627AF446D009469F5 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2057A527AF446D009469F5 /* Color.xcassets */; };
 		3A4EE2DD279F8FB50094CAB7 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */; };
 		3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */; };
 		3A4EE2E1279F8FBB0094CAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		26F89C7437E115AE0618327E /* Pods-Login-LoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login-LoginUITests.release.xcconfig"; path = "Target Support Files/Pods-Login-LoginUITests/Pods-Login-LoginUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E575B569106C97995103B20 /* Pods-LoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginTests/Pods-LoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2057A427AF4342009469F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A2057A527AF446D009469F5 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		3A4EE2D9279F8FB50094CAB7 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
 		3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,14 +122,16 @@
 		3A4EE2DB279F8FB50094CAB7 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3A2057A427AF4342009469F5 /* Info.plist */,
 				3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */,
 				3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */,
-				3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */,
 				3A4EE30B279FB0B80094CAB7 /* GoogleService-Info.plist */,
 				3A4EE2E5279F8FBB0094CAB7 /* Persistence.swift */,
 				3A4EE2E7279F8FBB0094CAB7 /* Login.xcdatamodeld */,
 				3A4EE2E2279F8FBB0094CAB7 /* Preview Content */,
 				3A4EE30D27A59E000094CAB7 /* ContentViewVM.swift */,
+				3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */,
+				3A2057A527AF446D009469F5 /* Color.xcassets */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4EE2E4279F8FBB0094CAB7 /* Preview Assets.xcassets in Resources */,
+				3A2057A627AF446D009469F5 /* Color.xcassets in Resources */,
 				3A4EE2E1279F8FBB0094CAB7 /* Assets.xcassets in Resources */,
 				3A4EE30C279FB0B80094CAB7 /* GoogleService-Info.plist in Resources */,
 			);
@@ -587,9 +593,9 @@
 				DEVELOPMENT_TEAM = TFGQTYMVM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Login/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -617,9 +623,9 @@
 				DEVELOPMENT_TEAM = TFGQTYMVM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Login/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
