@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		14926FC009FFB15621AB8FAE /* Pods_LoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6E5288DBE80E48A7BEA486 /* Pods_LoginTests.framework */; };
 		3A2057A627AF446D009469F5 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2057A527AF446D009469F5 /* Color.xcassets */; };
+		3A2057AA27AF4F43009469F5 /* SIgnUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057A927AF4F43009469F5 /* SIgnUpView.swift */; };
+		3A2057AC27AF4F55009469F5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057AB27AF4F55009469F5 /* SignInView.swift */; };
 		3A4EE2DD279F8FB50094CAB7 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */; };
 		3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */; };
 		3A4EE2E1279F8FBB0094CAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		2E575B569106C97995103B20 /* Pods-LoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginTests/Pods-LoginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A2057A427AF4342009469F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A2057A527AF446D009469F5 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		3A2057A927AF4F43009469F5 /* SIgnUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnUpView.swift; sourceTree = "<group>"; };
+		3A2057AB27AF4F55009469F5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		3A4EE2D9279F8FB50094CAB7 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
 		3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2057AD27AF50BB009469F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */,
+				3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */,
+				3A2057AB27AF4F55009469F5 /* SignInView.swift */,
+				3A2057A927AF4F43009469F5 /* SIgnUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A2057AE27AF50C7009469F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A4EE30D27A59E000094CAB7 /* ContentViewVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3A4EE2D0279F8FB40094CAB7 = {
 			isa = PBXGroup;
 			children = (
@@ -122,16 +145,15 @@
 		3A4EE2DB279F8FB50094CAB7 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3A2057AD27AF50BB009469F5 /* View */,
+				3A2057AE27AF50C7009469F5 /* ViewModel */,
 				3A2057A427AF4342009469F5 /* Info.plist */,
-				3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */,
-				3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */,
 				3A4EE30B279FB0B80094CAB7 /* GoogleService-Info.plist */,
 				3A4EE2E5279F8FBB0094CAB7 /* Persistence.swift */,
 				3A4EE2E7279F8FBB0094CAB7 /* Login.xcdatamodeld */,
-				3A4EE2E2279F8FBB0094CAB7 /* Preview Content */,
-				3A4EE30D27A59E000094CAB7 /* ContentViewVM.swift */,
 				3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */,
 				3A2057A527AF446D009469F5 /* Color.xcassets */,
+				3A4EE2E2279F8FBB0094CAB7 /* Preview Content */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -425,7 +447,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4EE2E6279F8FBB0094CAB7 /* Persistence.swift in Sources */,
+				3A2057AC27AF4F55009469F5 /* SignInView.swift in Sources */,
 				3A4EE30E27A59E010094CAB7 /* ContentViewVM.swift in Sources */,
+				3A2057AA27AF4F43009469F5 /* SIgnUpView.swift in Sources */,
 				3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */,
 				3A4EE2DD279F8FB50094CAB7 /* LoginApp.swift in Sources */,
 				3A4EE2E9279F8FBB0094CAB7 /* Login.xcdatamodeld in Sources */,
