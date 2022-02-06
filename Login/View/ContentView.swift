@@ -24,10 +24,12 @@ struct ContentView: View {
                             .foregroundColor(Color.blue)
                             .padding()
                     }
+
                 }
 
             } else {
-                SignInView()
+                FaceBookLoginView().frame(width: 180, height: 50,alignment: .center).padding(10)
+//                SignInView()
             }
         }
         .onAppear {

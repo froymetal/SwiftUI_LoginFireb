@@ -8,6 +8,8 @@ target 'Login' do
   # Pods for Login
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'FBSDKLoginKit'
+  pod 'GoogleSignIn'
 
   target 'LoginTests' do
     inherit! :search_paths
