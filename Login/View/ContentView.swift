@@ -28,8 +28,7 @@ struct ContentView: View {
                 }
 
             } else {
-                FaceBookLoginView().frame(width: 180, height: 50,alignment: .center).padding(10)
-//                SignInView()
+                SignInView()
             }
         }
         .onAppear {
