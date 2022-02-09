@@ -24,6 +24,7 @@ struct ContentView: View {
                             .foregroundColor(Color.blue)
                             .padding()
                     }
+
                 }
 
             } else {

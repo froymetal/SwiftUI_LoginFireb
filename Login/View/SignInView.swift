@@ -40,14 +40,17 @@ struct SignInView: View {
                     viewModel.signIn(email: email, password: password)
 
                 } label: {
-                    Text("Sign In")
+                    Text("Sign In with your email")
                         .foregroundColor(Color.white)
                         .frame(width: 200, height: 50)
                         .cornerRadius(8)
                         .background(Color.blue)
                 }
+                FaceBookLoginView().frame(width: 180, height: 50,alignment: .center).padding(10)
+                
                 NavigationLink("Create Account", destination: SignUpView())
                     .padding()
+
             }
             .padding()
             Spacer()

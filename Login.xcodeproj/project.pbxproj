@@ -11,6 +11,8 @@
 		3A2057A627AF446D009469F5 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2057A527AF446D009469F5 /* Color.xcassets */; };
 		3A2057AA27AF4F43009469F5 /* SIgnUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057A927AF4F43009469F5 /* SIgnUpView.swift */; };
 		3A2057AC27AF4F55009469F5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057AB27AF4F55009469F5 /* SignInView.swift */; };
+		3A2057B627B02D86009469F5 /* FaceBookLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057B527B02D86009469F5 /* FaceBookLoginView.swift */; };
+		3A2057B827B0AB8C009469F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057B727B0AB8C009469F5 /* AppDelegate.swift */; };
 		3A4EE2DD279F8FB50094CAB7 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */; };
 		3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */; };
 		3A4EE2E1279F8FBB0094CAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		3A2057A527AF446D009469F5 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		3A2057A927AF4F43009469F5 /* SIgnUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnUpView.swift; sourceTree = "<group>"; };
 		3A2057AB27AF4F55009469F5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3A2057B527B02D86009469F5 /* FaceBookLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookLoginView.swift; sourceTree = "<group>"; };
+		3A2057B727B0AB8C009469F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A4EE2D9279F8FB50094CAB7 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
 		3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */,
 				3A2057AB27AF4F55009469F5 /* SignInView.swift */,
 				3A2057A927AF4F43009469F5 /* SIgnUpView.swift */,
+				3A2057B527B02D86009469F5 /* FaceBookLoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */,
 				3A2057A527AF446D009469F5 /* Color.xcassets */,
 				3A4EE2E2279F8FBB0094CAB7 /* Preview Content */,
+				3A2057B727B0AB8C009469F5 /* AppDelegate.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -446,8 +452,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2057B627B02D86009469F5 /* FaceBookLoginView.swift in Sources */,
 				3A4EE2E6279F8FBB0094CAB7 /* Persistence.swift in Sources */,
 				3A2057AC27AF4F55009469F5 /* SignInView.swift in Sources */,
+				3A2057B827B0AB8C009469F5 /* AppDelegate.swift in Sources */,
 				3A4EE30E27A59E010094CAB7 /* ContentViewVM.swift in Sources */,
 				3A2057AA27AF4F43009469F5 /* SIgnUpView.swift in Sources */,
 				3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */,
