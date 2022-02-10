@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Login
+
+  Created by Froy on 2/9/22.
+  
+*/
+
+
+/// Login
+
+"login.SignedIn" = "You are signed in";
+"login.SignedOut" = "Sign Out";
+

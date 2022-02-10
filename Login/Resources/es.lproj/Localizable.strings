@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Login
+
+  Created by Froy on 2/9/22.
+  
+*/
+
+
+/// Login
+
+"login.SignedIn" = "Has ingresado a la aplicación";
+"login.SignedOut" = "Salir";
