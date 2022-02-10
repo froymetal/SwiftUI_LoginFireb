@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FBAEMReporter.h</key>
 		<data>
-		GOf8JNPHTACpafT+u9ccXR8j30U=
+		ROaMPXQpZYcQoz+zT97SvczaBAg=
 		</data>
 		<key>Headers/FBSKAdNetworkReporting.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hrdE4sdfce5Qb9sTKdyYxfA+yZY=
+		BjSALg4l2+mVPfcSxHQIMxK87VE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,11 +57,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GOf8JNPHTACpafT+u9ccXR8j30U=
+			ROaMPXQpZYcQoz+zT97SvczaBAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YWLDAf9jQcikcHIlDCmSEChL0cmxBNNIvcYOzcLNwGY=
+			o5TvYgLHu3OS6+29OHW/xt6vGtTRAQbryDnpft+Eyss=
 			</data>
 		</dict>
 		<key>Headers/FBSKAdNetworkReporting.h</key>

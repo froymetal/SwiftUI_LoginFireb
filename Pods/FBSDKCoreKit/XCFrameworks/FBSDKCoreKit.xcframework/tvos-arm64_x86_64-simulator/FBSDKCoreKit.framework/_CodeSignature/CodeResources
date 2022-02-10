@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/FBSDKCoreKitVersions.h</key>
 		<data>
-		G4q6omSoe/8s71Sq7cSYebdHXNc=
+		dw0SmP9N60eTZyqkN/UYl3nelio=
 		</data>
 		<key>Headers/FBSDKDeviceButton.h</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Headers/FBSDKFeature.h</key>
 		<data>
-		r0kC+Ttkm432vZl7up2ZZn3ynx4=
+		aFb4Au0M7faqdhP4tzeiS3afdTo=
 		</data>
 		<key>Headers/FBSDKFeatureChecking.h</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YMcj/eXyxci9nzWbEZ6KpbZrA3g=
+		bJP2MfisX5Ufc2rWJMitFSfQmB4=
 		</data>
 		<key>Modules/FBSDKCoreKit.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -624,11 +624,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G4q6omSoe/8s71Sq7cSYebdHXNc=
+			dw0SmP9N60eTZyqkN/UYl3nelio=
 			</data>
 			<key>hash2</key>
 			<data>
-			UWygMsTrg0Mv58xXYz1zMN75iOWzlqxgPAiDyq+rVxM=
+			8DY3QriDeTvK4cJTPHNbKBmMFDp9fxeISD+WOrQPEgU=
 			</data>
 		</dict>
 		<key>Headers/FBSDKDeviceButton.h</key>
@@ -734,11 +734,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r0kC+Ttkm432vZl7up2ZZn3ynx4=
+			aFb4Au0M7faqdhP4tzeiS3afdTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7MjdW11KHDSXxIl8f9kn+6SJtueluLzMG9NdpIh8JDE=
+			V/6bEDFIFWLE0+J0d2K4pTaGcDimx4oiFidMb0RL3Og=
 			</data>
 		</dict>
 		<key>Headers/FBSDKFeatureChecking.h</key>

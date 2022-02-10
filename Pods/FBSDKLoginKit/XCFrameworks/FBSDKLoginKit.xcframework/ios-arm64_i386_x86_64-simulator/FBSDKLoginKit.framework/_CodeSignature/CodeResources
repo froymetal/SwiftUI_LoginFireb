@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nCdRKWnTyZ+i0CvU7yCwB0GdIgM=
+		/r6vr35cliRutK9OXsNauYubxBk=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E700xCYl2TRjWRaW1iwV+pShXXs=
+		hXlwn5/nXjIYb/lGv6hD2Y6LW7E=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/i386.swiftmodule</key>
 		<data>
-		E700xCYl2TRjWRaW1iwV+pShXXs=
+		hXlwn5/nXjIYb/lGv6hD2Y6LW7E=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aJiv2d4NUrf7dXSWil3q6ZXAkto=
+		wlYhFzZLLt0fvRC2gGDsvPk6YK8=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		aJiv2d4NUrf7dXSWil3q6ZXAkto=
+		wlYhFzZLLt0fvRC2gGDsvPk6YK8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -449,11 +449,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E700xCYl2TRjWRaW1iwV+pShXXs=
+			hXlwn5/nXjIYb/lGv6hD2Y6LW7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			L+tldul2f0+eZ6qQJIbeLC64eOe/0MNjxWK6Dxj9/tg=
+			8r+lsDwwIjnXEqmRCxkSW1cH/kUMICvfjO2nqN2ZVxE=
 			</data>
 		</dict>
 		<key>Modules/FBSDKLoginKit.swiftmodule/i386.swiftdoc</key>
@@ -482,11 +482,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E700xCYl2TRjWRaW1iwV+pShXXs=
+			hXlwn5/nXjIYb/lGv6hD2Y6LW7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			L+tldul2f0+eZ6qQJIbeLC64eOe/0MNjxWK6Dxj9/tg=
+			8r+lsDwwIjnXEqmRCxkSW1cH/kUMICvfjO2nqN2ZVxE=
 			</data>
 		</dict>
 		<key>Modules/FBSDKLoginKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -515,11 +515,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aJiv2d4NUrf7dXSWil3q6ZXAkto=
+			wlYhFzZLLt0fvRC2gGDsvPk6YK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			oWNNRbx8vz7Zhr4l64Q3gms92QRoS+Ko9xTFlBJ1B8s=
+			y0OSkPwoRtQOx0ONOJ7mMTtPABLQMLIebC95KJ19mKk=
 			</data>
 		</dict>
 		<key>Modules/FBSDKLoginKit.swiftmodule/x86_64.swiftdoc</key>
@@ -548,11 +548,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aJiv2d4NUrf7dXSWil3q6ZXAkto=
+			wlYhFzZLLt0fvRC2gGDsvPk6YK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			oWNNRbx8vz7Zhr4l64Q3gms92QRoS+Ko9xTFlBJ1B8s=
+			y0OSkPwoRtQOx0ONOJ7mMTtPABLQMLIebC95KJ19mKk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
