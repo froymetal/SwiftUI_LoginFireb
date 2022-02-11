@@ -27,7 +27,7 @@ struct SignInView: View {
                     .padding()
                     .background(Color(.secondarySystemBackground))
 
-                TextField("Password", text: $password)
+                SecureField("Password", text: $password)
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
                     .padding()
