@@ -20,6 +20,13 @@ internal enum Localized {
         internal static let signEmail = Localized.tr("Localizable", "signIn.SignEmail")
         internal static let create = Localized.tr("Localizable", "signIn.Create")
     }
+
+    internal enum SignUp {
+        internal static let title = Localized.tr("Localizable", "signUp.Title")
+        internal static let email = Localized.tr("Localizable", "signUp.Email")
+        internal static let pass = Localized.tr("Localizable", "signUp.Pass")
+        internal static let create = Localized.tr("Localizable", "signUp.Create")
+    }
 }
 
 extension Localized {

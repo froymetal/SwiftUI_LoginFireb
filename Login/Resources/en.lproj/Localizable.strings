@@ -20,3 +20,9 @@
 "signIn.SignEmail" = "Sign In with your email";
 "signIn.Create" = "Create Account";
 
+/// Sign Up
+
+"signUp.Title" = "Sign Up";
+"signUp.Email" = "Email Adress";
+"signUp.Pass" = "Password";
+"signUp.Create" = "Create Account";

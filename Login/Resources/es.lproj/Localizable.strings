@@ -19,3 +19,10 @@
 "signIn.Pass" = "Contraseña";
 "signIn.SignEmail" = "Ingresar con Correo";
 "signIn.Create" = "Crear una Cuenta";
+
+/// Sign Up
+
+"signUp.Title" = "Crear una Cuenta Nueva";
+"signUp.Email" = "Correo Electrónico";
+"signUp.Pass" = "Contraseña";
+"signUp.Create" = "Crear Cuenta";
