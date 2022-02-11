@@ -26,3 +26,7 @@
 "signUp.Email" = "Correo Electrónico";
 "signUp.Pass" = "Contraseña";
 "signUp.Create" = "Crear Cuenta";
+
+/// Facebook Login
+
+"fb.SignIn" = "Ingresar con cuenta Facebook";
