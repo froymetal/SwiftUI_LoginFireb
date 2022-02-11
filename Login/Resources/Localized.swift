@@ -2,16 +2,24 @@
 //  Localized.swift
 //  Login
 //
-//  Created by Field Employee on 2/10/22.
+//  Created by Froy on 2/10/22.
 //
 
 import Foundation
 
 internal enum Localized {
-internal enum Login {
-    internal static let signedIn = Localized.tr("Localizable", "SignedIn")
-    internal static let signedOut = Localized.tr("Localizable", "SignedOut")
-}
+    internal enum Login {
+        internal static let signedIn = Localized.tr("Localizable", "login.SignedIn")
+        internal static let signedOut = Localized.tr("Localizable", "login.SignedOut")
+    }
+
+    internal enum SignIn {
+        internal static let title = Localized.tr("Localizable", "signIn.Title")
+        internal static let email = Localized.tr("Localizable", "signIn.Email")
+        internal static let pass = Localized.tr("Localizable", "signIn.Pass")
+        internal static let signEmail = Localized.tr("Localizable", "signIn.SignEmail")
+        internal static let create = Localized.tr("Localizable", "signIn.Create")
+    }
 }
 
 extension Localized {
@@ -23,10 +31,10 @@ extension Localized {
 
 private final class BundleToken {
     static let bundle: Bundle = {
-        #if SWIFT_PACKAGE
+#if SWIFT_PACKAGE
         return Bundle.module
-        #else
+#else
         return Bundle(for: BundleToken.self)
-        #endif
+#endif
     }()
 }

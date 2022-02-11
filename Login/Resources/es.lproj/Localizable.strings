@@ -11,3 +11,11 @@
 
 "login.SignedIn" = "Has ingresado a la aplicación";
 "login.SignedOut" = "Salir";
+
+///Sign In
+
+"signIn.Title" = "Ingresar";
+"signIn.Email" = "Correo Electrónico";
+"signIn.Pass" = "Contraseña";
+"signIn.SignEmail" = "Ingresar con Correo";
+"signIn.Create" = "Crear una Cuenta";

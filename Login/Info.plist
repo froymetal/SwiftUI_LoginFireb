@@ -40,7 +40,9 @@
 		<key>UIColorName</key>
 		<string>launchApp</string>
 		<key>UIImageName</key>
-		<string>apple_logo</string>
+		<string>flame</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>
