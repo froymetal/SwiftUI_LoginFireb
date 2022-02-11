@@ -16,18 +16,18 @@ struct SignInView: View {
     var body: some View {
 
         VStack {
-            Image("apple_logo")
+            Image("flame")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 150, height: 150)
             VStack {
-                TextField("Email Adress", text: $email)
+                TextField(Localized.SignIn.email, text: $email)
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
                     .padding()
                     .background(Color(.secondarySystemBackground))
 
-                TextField("Password", text: $password)
+                SecureField(Localized.SignIn.pass, text: $password)
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
                     .padding()
@@ -40,7 +40,7 @@ struct SignInView: View {
                     viewModel.signIn(email: email, password: password)
 
                 } label: {
-                    Text("Sign In with your email")
+                    Text(Localized.SignIn.signEmail)
                         .foregroundColor(Color.white)
                         .frame(width: 200, height: 50)
                         .cornerRadius(8)
@@ -48,13 +48,13 @@ struct SignInView: View {
                 }
                 FaceBookLoginView().frame(width: 180, height: 50,alignment: .center).padding(10)
                 
-                NavigationLink("Create Account", destination: SignUpView())
+                NavigationLink(Localized.SignIn.create, destination: SignUpView())
                     .padding()
 
             }
             .padding()
             Spacer()
         }
-        .navigationTitle("Sign In")
+        .navigationTitle(Localized.SignIn.title)
     }
 }

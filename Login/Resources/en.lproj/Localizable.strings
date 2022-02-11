@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Login
+
+  Created by Froy on 2/9/22.
+  
+*/
+
+
+/// Login
+
+"login.SignedIn" = "You are signed in";
+"login.SignedOut" = "Sign Out";
+
+///Sign In
+
+"signIn.Title" = "Sign In";
+"signIn.Email" = "Email Adress";
+"signIn.Pass" = "Password";
+"signIn.SignEmail" = "Sign In with your email";
+"signIn.Create" = "Create Account";
+
+/// Sign Up
+
+"signUp.Title" = "Sign Up";
+"signUp.Email" = "Email Adress";
+"signUp.Pass" = "Password";
+"signUp.Create" = "Create Account";
+
+/// Facebook Login
+
+"fb.SignIn" = "Facebook Sign In";

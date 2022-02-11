@@ -28,7 +28,7 @@ struct FaceBookLoginView: UIViewRepresentable {
                 print(error.localizedDescription)
                 return
               }
-              print("Facebook Sign In")
+                print(Localized.FacebookLogin.fbSignIn)
             }
         }
 

@@ -21,13 +21,13 @@ struct SignUpView: View {
                 .scaledToFit()
                 .frame(width: 150, height: 150)
             VStack {
-                TextField("Email Adress", text: $email)
+                TextField(Localized.SignUp.email, text: $email)
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
                     .padding()
                     .background(Color(.secondarySystemBackground))
 
-                TextField("Password", text: $password)
+                SecureField(Localized.SignUp.pass, text: $password)
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
                     .padding()
@@ -40,7 +40,7 @@ struct SignUpView: View {
                     viewModel.signUp(email: email, password: password)
 
                 } label: {
-                    Text("Crete Account")
+                    Text(Localized.SignUp.create)
                         .foregroundColor(Color.white)
                         .frame(width: 200, height: 50)
                         .cornerRadius(8)
@@ -50,6 +50,6 @@ struct SignUpView: View {
             .padding()
             Spacer()
         }
-        .navigationTitle("Create Account")
+        .navigationTitle(Localized.SignUp.create)
     }
 }

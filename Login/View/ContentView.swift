@@ -14,19 +14,18 @@ struct ContentView: View {
         NavigationView {
             if viewModel.signedIn {
                 VStack {
-                    Text("You are signed in")
-
+                    // A dónde me lleva cuando se loguea en la app
+                    Text(Localized.Login.signedIn)
+                    // Botón para salir de la app
                     Button {
                         viewModel.signOut()
                     } label: {
-                        Text("Sign Out")
+                        Text(Localized.Login.signedOut)
                             .frame(width: 200, height: 50)
                             .foregroundColor(Color.blue)
                             .padding()
                     }
-
                 }
-
             } else {
                 SignInView()
             }
