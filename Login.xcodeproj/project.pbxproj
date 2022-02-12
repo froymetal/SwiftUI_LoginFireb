@@ -15,6 +15,10 @@
 		3A2057B827B0AB8C009469F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057B727B0AB8C009469F5 /* AppDelegate.swift */; };
 		3A2057BE27B4B9E4009469F5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2057C027B4B9E4009469F5 /* Localizable.strings */; };
 		3A2057C327B5EA79009469F5 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057C227B5EA79009469F5 /* Localized.swift */; };
+		3A2057C727B7CD0D009469F5 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057C627B7CD0C009469F5 /* ForgotPassword.swift */; };
+		3A2057C927B7CD96009469F5 /* ForgotPasswordVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057C827B7CD96009469F5 /* ForgotPasswordVM.swift */; };
+		3A2057CC27B7CDFB009469F5 /* ForgotPasswordService'.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057CB27B7CDFB009469F5 /* ForgotPasswordService'.swift */; };
+		3A2057CF27B7D01A009469F5 /* NavigationCloseViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2057CE27B7D019009469F5 /* NavigationCloseViewModifier.swift */; };
 		3A4EE2DD279F8FB50094CAB7 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */; };
 		3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */; };
 		3A4EE2E1279F8FBB0094CAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4EE2E0279F8FBB0094CAB7 /* Assets.xcassets */; };
@@ -59,6 +63,10 @@
 		3A2057BF27B4B9E4009469F5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3A2057C127B4B9E9009469F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3A2057C227B5EA79009469F5 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		3A2057C627B7CD0C009469F5 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		3A2057C827B7CD96009469F5 /* ForgotPasswordVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVM.swift; sourceTree = "<group>"; };
+		3A2057CB27B7CDFB009469F5 /* ForgotPasswordService'.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForgotPasswordService'.swift"; sourceTree = "<group>"; };
+		3A2057CE27B7D019009469F5 /* NavigationCloseViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCloseViewModifier.swift; sourceTree = "<group>"; };
 		3A4EE2D9279F8FB50094CAB7 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4EE2DC279F8FB50094CAB7 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
 		3A4EE2DE279F8FB50094CAB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +126,7 @@
 				3A2057AB27AF4F55009469F5 /* SignInView.swift */,
 				3A2057A927AF4F43009469F5 /* SIgnUpView.swift */,
 				3A2057B527B02D86009469F5 /* FaceBookLoginView.swift */,
+				3A2057C627B7CD0C009469F5 /* ForgotPassword.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				3A4EE30D27A59E000094CAB7 /* ContentViewVM.swift */,
+				3A2057C827B7CD96009469F5 /* ForgotPasswordVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -139,6 +149,22 @@
 				3A2057C227B5EA79009469F5 /* Localized.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A2057CA27B7CDC0009469F5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3A2057CB27B7CDFB009469F5 /* ForgotPasswordService'.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3A2057CD27B7CFF7009469F5 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3A2057CE27B7D019009469F5 /* NavigationCloseViewModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		3A4EE2D0279F8FB40094CAB7 = {
@@ -166,6 +192,8 @@
 		3A4EE2DB279F8FB50094CAB7 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3A2057CD27B7CFF7009469F5 /* Modifiers */,
+				3A2057CA27B7CDC0009469F5 /* Service */,
 				3A2057BB27B4B875009469F5 /* Resources */,
 				3A2057AD27AF50BB009469F5 /* View */,
 				3A2057AE27AF50C7009469F5 /* ViewModel */,
@@ -471,14 +499,18 @@
 			files = (
 				3A2057B627B02D86009469F5 /* FaceBookLoginView.swift in Sources */,
 				3A4EE2E6279F8FBB0094CAB7 /* Persistence.swift in Sources */,
+				3A2057CF27B7D01A009469F5 /* NavigationCloseViewModifier.swift in Sources */,
+				3A2057CC27B7CDFB009469F5 /* ForgotPasswordService'.swift in Sources */,
 				3A2057AC27AF4F55009469F5 /* SignInView.swift in Sources */,
 				3A2057B827B0AB8C009469F5 /* AppDelegate.swift in Sources */,
+				3A2057C927B7CD96009469F5 /* ForgotPasswordVM.swift in Sources */,
 				3A4EE30E27A59E010094CAB7 /* ContentViewVM.swift in Sources */,
 				3A2057C327B5EA79009469F5 /* Localized.swift in Sources */,
 				3A2057AA27AF4F43009469F5 /* SIgnUpView.swift in Sources */,
 				3A4EE2DF279F8FB50094CAB7 /* ContentView.swift in Sources */,
 				3A4EE2DD279F8FB50094CAB7 /* LoginApp.swift in Sources */,
 				3A4EE2E9279F8FBB0094CAB7 /* Login.xcdatamodeld in Sources */,
+				3A2057C727B7CD0D009469F5 /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

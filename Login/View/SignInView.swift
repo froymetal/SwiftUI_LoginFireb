@@ -11,6 +11,7 @@ struct SignInView: View {
 
     @State var email: String = ""
     @State var password: String = ""
+    @State var showForgotPassword: Bool = false
     @EnvironmentObject var viewModel: AppViewModel
 
     var body: some View {
@@ -50,6 +51,18 @@ struct SignInView: View {
                 
                 NavigationLink(Localized.SignIn.create, destination: SignUpView())
                     .padding()
+
+                Spacer()
+
+                Button(action: {
+                    showForgotPassword.toggle()
+                }, label: {
+                    Text("Forgot Password?")
+                })
+                .font(.system(size: 16, weight: .bold))
+                .sheet(isPresented: $showForgotPassword) {
+                        ForgotPasswordView()
+                }
 
             }
             .padding()
