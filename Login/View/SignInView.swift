@@ -22,18 +22,23 @@ struct SignInView: View {
                 .scaledToFit()
                 .frame(width: 150, height: 150)
             VStack {
-                TextField(Localized.SignIn.email, text: $email)
-                    .disableAutocorrection(true)
-                    .autocapitalization(.none)
-                    .padding()
-                    .background(Color(.secondarySystemBackground))
+                HStack {
+                    Image(systemName: "envelope")
+                    TextField(Localized.SignIn.email, text: $email)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
+                        .padding()
+                        .background(Color(.secondarySystemBackground))
+                }.overlay(RoundedRectangle(cornerRadius: 10).stroke(lineWidth:   1).foregroundColor(Color.black))
 
-                SecureField(Localized.SignIn.pass, text: $password)
-                    .disableAutocorrection(true)
-                    .autocapitalization(.none)
-                    .padding()
-                    .background(Color(.secondarySystemBackground))
-
+                HStack {
+                    Image(systemName: "lock")
+                    SecureField(Localized.SignIn.pass, text: $password)
+                        .disableAutocorrection(true)
+                        .autocapitalization(.none)
+                        .padding()
+                        .background(Color(.secondarySystemBackground))
+                }.overlay(RoundedRectangle(cornerRadius: 10).stroke(lineWidth:   1).foregroundColor(Color.black))
                 Button {
                     guard !email.isEmpty, !password.isEmpty else {
                         return
